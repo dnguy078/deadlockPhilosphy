@@ -1,0 +1,14 @@
+To compile:
+	./make
+
+run:
+	./run (number of philosphers)
+	ie)
+	./run 5 
+	
+A philopher can starve when there occurs a deadlock. A deadlock can occur in
+this system when each philospher is holding her left chopstick and waiting for
+the chopstick to her right. To fix this, we added bounded waiting time, a
+philospher can only eat for a certain time amount until releasing the
+chopsticks. To evenly distribute the disadvantages the yellow chopstick should
+be place to her right and other chopstick to her left. 
